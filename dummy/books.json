@@ -18,7 +18,8 @@
     "rating": [
       { "username": "philosophicalfictionlover", "rate": 4.7, "comment": "Deeply philosophical." },
       { "username": "dostoevskyfan", "rate": 4.8, "comment": "Masterpiece of literature." }
-    ]
+    ],
+    "slug": "the-brothers-karamazov"
   },
   {
     "name": "Don Quixote",
@@ -39,7 +40,8 @@
     "rating": [
       { "username": "satirelover", "rate": 4.8, "comment": "Hilarious satire." },
       { "username": "cervantesfan", "rate": 4.9, "comment": "Timeless classic." }
-    ]
+    ],
+    "slug": "don-quixote"
   },
   {
     "name": "The Picture of Dorian Gray",
@@ -60,7 +62,8 @@
     "rating": [
       { "username": "gothicfictionlover", "rate": 4.8, "comment": "A haunting tale." },
       { "username": "oscarwildeenthusiast", "rate": 4.9, "comment": "Brilliantly written." }
-    ]
+    ],
+    "slug": "the-picture-of-dorian-gray"
   },
   {
     "name": "Ulysses",
@@ -79,513 +82,54 @@
     "weight": 1.3,
     "cover": "Soft",
     "rating": [
-      { "username": "modernistfictionlover", "rate": 4.7, "comment": "Groundbreaking work." },
-      { "username": "joycean", "rate": 4.8, "comment": "A literary achievement." }
-    ]
+      { "username": "modernistfictionfan", "rate": 4.6, "comment": "Challenging but rewarding." },
+      { "username": "jamesjoyceenthusiast", "rate": 4.8, "comment": "A masterpiece of modernist literature." }
+    ],
+    "slug": "ulysses"
   },
   {
-    "name": "Middlemarch",
-    "author": "George Eliot",
-    "isbn": "9780140433828",
-    "genre": ["Victorian", "Realistic Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1871-12-01",
+    "name": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "isbn": "9780060883287",
+    "genre": ["Magic Realism", "Fiction"],
+    "publisher": "Harper Perennial Modern Classics",
+    "publicationDate": "1967-05-30",
     "language": "English",
-    "description": "A novel that explores the lives of the inhabitants of the fictional town of Middlemarch, focusing on themes of social change, idealism, and marriage.",
-    "price": 12.25,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 880,
-    "dimension": { "height": 21, "width": 15, "length": 3 },
-    "weight": 1.0,
-    "cover": "Soft",
-    "rating": [
-      { "username": "victorianfictionlover", "rate": 4.8, "comment": "Captivating portrayal of Victorian society." },
-      { "username": "georgeeliotfan", "rate": 4.9, "comment": "Masterful storytelling." }
-    ]
-  },
-  {
-    "name": "The Canterbury Tales",
-    "author": "Geoffrey Chaucer",
-    "isbn": "9780140424383",
-    "genre": ["Medieval", "Poetry", "Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "Late 14th century",
-    "language": "English",
-    "description": "A collection of stories told by a group of pilgrims traveling to the shrine of Thomas Becket in Canterbury, offering a vivid portrait of medieval life.",
+    "description": "A novel that tells the multi-generational story of the Buendía family in the fictional town of Macondo, blending elements of fantasy and reality.",
     "price": 10.99,
     "availability": "In Stock",
     "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 504,
-    "dimension": { "height": 20, "width": 14, "length": 2 },
-    "weight": 0.8,
-    "cover": "Soft",
-    "rating": [
-      { "username": "medievalfictionlover", "rate": 4.7, "comment": "Classic tales of the Middle Ages." },
-      { "username": "chaucerian", "rate": 4.8, "comment": "Timeless literature." }
-    ]
-  },
-  {
-    "name": "The Trial",
-    "author": "Franz Kafka",
-    "isbn": "9780805209990",
-    "genre": ["Absurdist", "Existential Fiction"],
-    "publisher": "Schocken Books",
-    "publicationDate": "1925-04-10",
-    "language": "English",
-    "description": "A novel that follows a man named Josef K. as he is arrested and prosecuted by a mysterious and oppressive bureaucracy, exploring themes of alienation and absurdity.",
-    "price": 9.50,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 304,
-    "dimension": { "height": 19, "width": 13, "length": 2 },
-    "weight": 0.6,
-    "cover": "Soft",
-    "rating": [
-      { "username": "absurdistfictionlover", "rate": 4.8, "comment": "Mind-bending narrative." },
-      { "username": "kafkafanatic", "rate": 4.9, "comment": "A haunting masterpiece." }
-    ]
-  },
-  {
-    "name": "The Iliad",
-    "author": "Homer",
-    "isbn": "9780140275360",
-    "genre": ["Epic Poetry", "Mythology"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "8th century BCE",
-    "language": "English",
-    "description": "An epic poem that tells the story of the Trojan War, focusing on the wrath of Achilles and its consequences.",
-    "price": 11.99,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 704,
+    "page": 417,
     "dimension": { "height": 20, "width": 14, "length": 3 },
     "weight": 0.9,
     "cover": "Soft",
     "rating": [
-      { "username": "epicpoetrylover", "rate": 4.7, "comment": "An enduring classic." },
-      { "username": "homerian", "rate": 4.8, "comment": "Timeless epic." }
-    ]
+      { "username": "magicrealismlover", "rate": 4.9, "comment": "Beautifully surreal." },
+      { "username": "gabrielgarciamarquezfan", "rate": 4.8, "comment": "A literary masterpiece." }
+    ],
+    "slug": "one-hundred-years-of-solitude"
   },
   {
     "name": "Crime and Punishment",
     "author": "Fyodor Dostoevsky",
-    "isbn": "9780140449133",
-    "genre": ["Philosophical Fiction", "Psychological Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1866-11-14",
+    "isbn": "9780679734505",
+    "genre": ["Psychological Fiction", "Philosophical Fiction"],
+    "publisher": "Vintage Classics",
+    "publicationDate": "1866-01-01",
     "language": "English",
-    "description": "A novel that explores the psychological and moral dilemmas of its protagonist, Rodion Raskolnikov, as he commits a murder and grapples with its consequences.",
+    "description": "A novel that explores themes of guilt, redemption, and the psychology of crime through the story of Raskolnikov, a young man who commits murder and grapples with its consequences.",
     "price": 12.99,
     "availability": "In Stock",
     "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 576,
-    "dimension": { "height": 20, "width": 14, "length": 3 },
-    "weight": 0.9,
+    "page": 592,
+    "dimension": { "height": 20, "width": 13, "length": 3 },
+    "weight": 1,
     "cover": "Soft",
     "rating": [
-      { "username": "psychologicalfictionlover", "rate": 4.9, "comment": "A gripping psychological thriller." },
-      { "username": "dostoevskyfan", "rate": 4.8, "comment": "Profound exploration of morality." }
-    ]
-  },
-  {
-    "name": "Les Misérables",
-    "author": "Victor Hugo",
-    "isbn": "9780140444305",
-    "genre": ["Historical Fiction", "Social Critique"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1862-04-03",
-    "language": "English",
-    "description": "A novel that follows the lives and interactions of several characters, particularly the struggles of ex-convict Jean Valjean and his quest for redemption.",
-    "price": 15.75,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 1232,
-    "dimension": { "height": 22, "width": 16, "length": 4 },
-    "weight": 1.2,
-    "cover": "Hard",
-    "rating": [
-      { "username": "southerngothiclover", "rate": 4.8, "comment": "A poignant portrayal of racism." },
-      { "username": "literarycritic", "rate": 4.9, "comment": "An American classic." }
-    ]
-  },
-  {
-    "name": "War and Peace",
-    "author": "Leo Tolstoy",
-    "isbn": "9780143035008",
-    "genre": ["Historical Fiction", "Epic"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1869-01-01",
-    "language": "English",
-    "description": "A historical novel that chronicles the lives of several aristocratic families during the Napoleonic Wars, focusing on themes of love, war, and destiny.",
-    "price": 18.50,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 1392,
-    "dimension": { "height": 24, "width": 17, "length": 5 },
-    "weight": 1.5,
-    "cover": "Soft",
-    "rating": [
-      { "username": "southerngothiclover", "rate": 4.8, "comment": "A poignant portrayal of racism." },
-      { "username": "literarycritic", "rate": 4.9, "comment": "An American classic." }
-    ]
-  },
-  {
-    "name": "The Three Musketeers",
-    "author": "Alexandre Dumas",
-    "isbn": "9780140620431",
-    "genre": ["Adventure", "Historical", "Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1844-03-14",
-    "language": "English",
-    "description": "A swashbuckling adventure novel that follows the exploits of the young Gascon nobleman d'Artagnan and his three musketeer friends.",
-    "price": 11.99,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 704,
-    "dimension": { "height": 20, "width": 14, "length": 3 },
-    "weight": 1.0,
-    "cover": "Soft",
-    "rating": [
-      { "username": "adventurefictionlover", "rate": 4.8, "comment": "Exciting and adventurous." },
-      { "username": "dumasenthusiast", "rate": 4.9, "comment": "Classic swashbuckler." }
-    ]
-  },
-  {
-    "name": "Anna Karenina",
-    "author": "Leo Tolstoy",
-    "isbn": "9780143035008",
-    "genre": ["Realistic Fiction", "Romance"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1877-01-01",
-    "language": "English",
-    "description": "A novel that follows the tragic love affair between Anna Karenina, a married aristocrat, and Count Vronsky, set against the backdrop of Russian society.",
-    "price": 14.99,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 864,
-    "dimension": { "height": 21, "width": 15, "length": 3 },
-    "weight": 1.1,
-    "cover": "Soft",
-    "rating": [
-      { "username": "realisticfictionlover", "rate": 4.8, "comment": "Deeply moving." },
-      { "username": "tolstoyfan", "rate": 4.9, "comment": "Masterpiece of realism." }
-    ]
-  },
-  {
-    "name": "Emma",
-    "author": "Jane Austen",
-    "isbn": "9780141439582",
-    "genre": ["Romance", "Comedy of Manners", "Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1815-12-23",
-    "language": "English",
-    "description": "A novel that follows the misadventures of the well-meaning but naive Emma Woodhouse as she meddles in the romantic lives of those around her.",
-    "price": 10.75,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 512,
-    "dimension": { "height": 20, "width": 14, "length": 3 },
-    "weight": 0.9,
-    "cover": "Soft",
-    "rating": [
-      { "username": "romancefictionlover", "rate": 4.7, "comment": "Delightfully charming." },
-      { "username": "austenfan", "rate": 4.8, "comment": "Classic Austen wit." }
-    ]
-  },
-  {
-    "name": "Jane Eyre",
-    "author": "Charlotte Brontë",
-    "isbn": "9780141441141",
-    "genre": ["Gothic", "Romance", "Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1847-10-16",
-    "language": "English",
-    "description": "A novel that follows the experiences of the orphaned Jane Eyre as she grows up, falls in love with the brooding Mr. Rochester, and discovers secrets about her past.",
-    "price": 9.99,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 624,
-    "dimension": { "height": 19, "width": 13, "length": 2 },
-    "weight": 0.7,
-    "cover": "Soft",
-    "rating": [
-      { "username": "gothicromancelover", "rate": 4.8, "comment": "A timeless love story." },
-      { "username": "brontëenthusiast", "rate": 4.9, "comment": "Captivating narrative." }
-    ]
-  },
-  {
-    "name": "Wuthering Heights",
-    "author": "Emily Brontë",
-    "isbn": "9780141439551",
-    "genre": ["Gothic", "Romance", "Tragedy"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1847-12-29",
-    "language": "English",
-    "description": "A novel that follows the tempestuous relationship between Heathcliff and Catherine Earnshaw, set against the backdrop of the Yorkshire moors.",
-    "price": 10.50,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 416,
-    "dimension": { "height": 20, "width": 14, "length": 2 },
-    "weight": 0.8,
-    "cover": "Soft",
-    "rating": [
-      { "username": "gothicromancelover", "rate": 4.8, "comment": "A haunting love story." },
-      { "username": "brontëenthusiast", "rate": 4.9, "comment": "Eerily beautiful." }
-    ]
-  },
-  {
-    "name": "Sense and Sensibility",
-    "author": "Jane Austen",
-    "isbn": "9780141439667",
-    "genre": ["Romance", "Comedy of Manners", "Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1811-10-30",
-    "language": "English",
-    "description": "A novel that follows the romantic adventures of the Dashwood sisters, Elinor and Marianne, as they navigate the societal expectations of their time.",
-    "price": 9.75,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 400,
-    "dimension": { "height": 19, "width": 13, "length": 2 },
-    "weight": 0.7,
-    "cover": "Soft",
-    "rating": [
-      { "username": "romancefictionlover", "rate": 4.7, "comment": "Charming and delightful." },
-      { "username": "austenfan", "rate": 4.8, "comment": "Classic Austen humor." }
-    ]
-  },
-  {
-    "name": "Oliver Twist",
-    "author": "Charles Dickens",
-    "isbn": "9780141439742",
-    "genre": ["Social Critique", "Historical Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1838-02-07",
-    "language": "English",
-    "description": "A novel that follows the adventures of the orphaned Oliver Twist as he navigates the harsh realities of Victorian London, encountering both kindness and cruelty.",
-    "price": 8.99,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 496,
-    "dimension": { "height": 18, "width": 12, "length": 2 },
-    "weight": 0.6,
-    "cover": "Soft",
-    "rating": [
-      { "username": "socialcritiquefan", "rate": 4.8, "comment": "Insightful commentary on society." },
-      { "username": "dickensian", "rate": 4.9, "comment": "Classic Dickens." }
-    ]
-  },
-  {
-    "name": "Pride and Prejudice",
-    "author": "Jane Austen",
-    "isbn": "9780141439513",
-    "genre": ["Romance", "Comedy of Manners", "Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1813-01-28",
-    "language": "English",
-    "description": "A novel that follows the romantic entanglements of the Bennet sisters, particularly Elizabeth Bennet and the enigmatic Mr. Darcy, in Regency-era England.",
-    "price": 9.25,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 432,
-    "dimension": { "height": 19, "width": 13, "length": 2 },
-    "weight": 0.7,
-    "cover": "Soft",
-    "rating": [
-      { "username": "romancefictionlover", "rate": 4.7, "comment": "Charming and witty." },
-      { "username": "austenfan", "rate": 4.8, "comment": "Austen at her best." }
-    ]
-  },
-  {
-    "name": "Moby-Dick",
-    "author": "Herman Melville",
-    "isbn": "9780142437247",
-    "genre": ["Adventure", "Philosophical Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1851-10-18",
-    "language": "English",
-    "description": "A novel that follows the obsessive quest of Captain Ahab for revenge on the white whale Moby Dick, exploring themes of obsession, fate, and the nature of evil.",
-    "price": 13.50,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 624,
-    "dimension": { "height": 20, "width": 14, "length": 2 },
-    "weight": 0.8,
-    "cover": "Soft",
-    "rating": [
-      { "username": "adventurefictionlover", "rate": 4.8, "comment": "Epic adventure." },
-      { "username": "melvillefan", "rate": 4.9, "comment": "Literary masterpiece." }
-    ]
-  },
-  {
-    "name": "Heart of Darkness",
-    "author": "Joseph Conrad",
-    "isbn": "9780141441675",
-    "genre": ["Modernist", "Psychological Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1899-02-03",
-    "language": "English",
-    "description": "A novella that follows the journey of Charles Marlow up the Congo River into the heart of Africa, exploring themes of imperialism, madness, and the darkness within the human soul.",
-    "price": 8.75,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 176,
-    "dimension": { "height": 18, "width": 12, "length": 2 },
-    "weight": 0.5,
-    "cover": "Soft",
-    "rating": [
-      { "username": "modernistfictionlover", "rate": 4.7, "comment": "A haunting journey." },
-      { "username": "conradian", "rate": 4.8, "comment": "A masterpiece of modernist literature." }
-    ]
-  },
-  {
-    "name": "The Odyssey",
-    "author": "Homer",
-    "isbn": "9780143039952",
-    "genre": ["Epic Poetry", "Mythology"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "8th century BCE",
-    "language": "English",
-    "description": "An epic poem that follows the adventures of the hero Odysseus as he attempts to return home after the Trojan War, encountering mythical creatures and gods along the way.",
-    "price": 11.99,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 416,
-    "dimension": { "height": 20, "width": 14, "length": 2 },
-    "weight": 0.8,
-    "cover": "Soft",
-    "rating": [
-      { "username": "epicpoetrylover", "rate": 4.7, "comment": "A classic epic." },
-      { "username": "homerian", "rate": 4.8, "comment": "Timeless adventure." }
-    ]
-  },
-  {
-    "name": "The Count of Monte Cristo",
-    "author": "Alexandre Dumas",
-    "isbn": "9780140449263",
-    "genre": ["Adventure", "Revenge", "Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1844-08-28",
-    "language": "English",
-    "description": "A novel that follows the story of Edmond Dantès, a young sailor who is falsely accused and imprisoned, but later escapes and seeks revenge against those who wronged him.",
-    "price": 12.25,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 1276,
-    "dimension": { "height": 22, "width": 16, "length": 4 },
-    "weight": 1.3,
-    "cover": "Soft",
-    "rating": [
-      { "username": "adventurefictionlover", "rate": 4.8, "comment": "An epic tale of revenge." },
-      { "username": "dumasenthusiast", "rate": 4.9, "comment": "Dramatic and thrilling." }
-    ]
-  },
-  {
-    "name": "Dracula",
-    "author": "Bram Stoker",
-    "isbn": "9780141439841",
-    "genre": ["Gothic", "Horror"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1897-05-26",
-    "language": "English",
-    "description": "A novel that follows the vampire Count Dracula's attempt to move from Transylvania to England so he may find new blood and spread the undead curse.",
-    "price": 9.99,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 480,
-    "dimension": { "height": 20, "width": 14, "length": 2 },
-    "weight": 0.8,
-    "cover": "Soft",
-    "rating": [
-      { "username": "gothicfictionlover", "rate": 4.8, "comment": "A chilling tale." },
-      { "username": "stokerfan", "rate": 4.9, "comment": "Classic horror." }
-    ]
-  },
-  {
-    "name": "Great Expectations",
-    "author": "Charles Dickens",
-    "isbn": "9780141439568",
-    "genre": ["Social Critique", "Realistic Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1861-12-01",
-    "language": "English",
-    "description": "A novel that follows the life of the orphan Pip as he encounters various characters, including the mysterious benefactor who changes his life, exploring themes of ambition, class, and identity.",
-    "price": 11.50,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 544,
-    "dimension": { "height": 19, "width": 13, "length": 2 },
-    "weight": 0.7,
-    "cover": "Soft",
-    "rating": [
-      { "username": "socialcritiquefan", "rate": 4.8, "comment": "Insightful portrayal of society." },
-      { "username": "dickensian", "rate": 4.9, "comment": "Classic Dickens." }
-    ]
-  },
-  {
-    "name": "Little Women",
-    "author": "Louisa May Alcott",
-    "isbn": "9780141439582",
-    "genre": ["Coming-of-Age", "Domestic Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1868-09-30",
-    "language": "English",
-    "description": "A novel that follows the lives of the four March sisters—Meg, Jo, Beth, and Amy—as they grow up during and after the American Civil War.",
-    "price": 10.99,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 528,
-    "dimension": { "height": 20, "width": 14, "length": 3 },
-    "weight": 0.9,
-    "cover": "Soft",
-    "rating": [
-      { "username": "comingofagelover", "rate": 4.7, "comment": "A timeless classic." },
-      { "username": "alcottfan", "rate": 4.8, "comment": "Heartwarming story." }
-    ]
-  },
-  {
-    "name": "Frankenstein",
-    "author": "Mary Shelley",
-    "isbn": "9780141439476",
-    "genre": ["Gothic", "Science Fiction", "Horror"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1818-01-01",
-    "language": "English",
-    "description": "A novel that tells the story of Victor Frankenstein, a young scientist who creates a grotesque creature in an unorthodox scientific experiment.",
-    "price": 9.75,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 352,
-    "dimension": { "height": 19, "width": 13, "length": 2 },
-    "weight": 0.6,
-    "cover": "Soft",
-    "rating": [
-      { "username": "gothicfictionlover", "rate": 4.8, "comment": "A haunting tale." },
-      { "username": "shelleyfan", "rate": 4.9, "comment": "Innovative and chilling." }
-    ]
-  },
-  {
-    "name": "1984",
-    "author": "George Orwell",
-    "isbn": "9780141036144",
-    "genre": ["Dystopian", "Science Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1949-06-08",
-    "language": "English",
-    "description": "A novel that explores themes of totalitarianism, surveillance, and the erosion of individual freedom in a dystopian future.",
-    "price": 10.99,
-    "availability": "In Stock",
-    "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 336,
-    "dimension": { "height": 19, "width": 13, "length": 2 },
-    "weight": 0.6,
-    "cover": "Soft",
-    "rating": [
-      { "username": "dystopianfictionlover", "rate": 4.9, "comment": "A chilling vision of the future." },
-      { "username": "orwellian", "rate": 4.8, "comment": "A warning against totalitarianism." }
-    ]
+      { "username": "psychologicalfictionlover", "rate": 4.7, "comment": "A gripping psychological drama." },
+      { "username": "dostoevskyenthusiast", "rate": 4.8, "comment": "Masterfully crafted." }
+    ],
+    "slug": "crime-and-punishment"
   },
   {
     "name": "To Kill a Mockingbird",
@@ -595,8 +139,8 @@
     "publisher": "Harper Perennial Modern Classics",
     "publicationDate": "1960-07-11",
     "language": "English",
-    "description": "A novel that explores themes of racial injustice and moral growth through the eyes of young Scout Finch as her father, lawyer Atticus Finch, defends a black man wrongly accused of rape.",
-    "price": 11.25,
+    "description": "A novel that addresses racial injustice and moral growth in the American South through the perspective of a young girl named Scout Finch.",
+    "price": 8.99,
     "availability": "In Stock",
     "format": ["Hardcover", "Paperback", "E-book"],
     "page": 336,
@@ -604,30 +148,450 @@
     "weight": 0.7,
     "cover": "Soft",
     "rating": [
-      { "username": "southerngothiclover", "rate": 4.8, "comment": "A poignant portrayal of racism." },
-      { "username": "literarycritic", "rate": 4.9, "comment": "An American classic." }
-    ]
+      { "username": "southerngothicfan", "rate": 4.8, "comment": "A timeless classic." },
+      { "username": "harperleefan", "rate": 4.9, "comment": "Powerful and thought-provoking." }
+    ],
+    "slug": "to-kill-a-mockingbird"
+  },
+  {
+    "name": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "isbn": "9780743273565",
+    "genre": ["Tragedy", "Fiction"],
+    "publisher": "Scribner",
+    "publicationDate": "1925-04-10",
+    "language": "English",
+    "description": "A novel set in the Jazz Age that follows the enigmatic millionaire Jay Gatsby and his pursuit of the American Dream, as narrated by his neighbor Nick Carraway.",
+    "price": 11.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 180,
+    "dimension": { "height": 19, "width": 13, "length": 2 },
+    "weight": 0.5,
+    "cover": "Soft",
+    "rating": [
+      { "username": "tragedylover", "rate": 4.7, "comment": "Beautifully tragic." },
+      { "username": "fscottfitzgeraldfan", "rate": 4.8, "comment": "Captivating storytelling." }
+    ],
+    "slug": "the-great-gatsby"
+  },
+  {
+    "name": "Moby-Dick",
+    "author": "Herman Melville",
+    "isbn": "9780142437247",
+    "genre": ["Adventure", "Semi-autobiographical", "Epic"],
+    "publisher": "Penguin Classics",
+    "publicationDate": "1851-11-14",
+    "language": "English",
+    "description": "A novel that follows the journey of Ishmael, a sailor on a whaling ship, and his obsessive quest for revenge against the white whale Moby Dick.",
+    "price": 10.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 720,
+    "dimension": { "height": 20, "width": 13, "length": 3 },
+    "weight": 0.8,
+    "cover": "Soft",
+    "rating": [
+      { "username": "adventurelover", "rate": 4.7, "comment": "Epic adventure." },
+      { "username": "hermanmelvillefan", "rate": 4.8, "comment": "A literary masterpiece." }
+    ],
+    "slug": "moby-dick"
+  },
+  {
+    "name": "War and Peace",
+    "author": "Leo Tolstoy",
+    "isbn": "9781400079988",
+    "genre": ["Historical Fiction", "Epic"],
+    "publisher": "Vintage Classics",
+    "publicationDate": "1869-01-01",
+    "language": "English",
+    "description": "A novel that chronicles the lives of Russian aristocrats during the Napoleonic Wars, exploring themes of love, war, and the search for meaning.",
+    "price": 14.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 1392,
+    "dimension": { "height": 21, "width": 15, "length": 5 },
+    "weight": 1.5,
+    "cover": "Soft",
+    "rating": [
+      { "username": "historicalfictionlover", "rate": 4.8, "comment": "Epic historical saga." },
+      { "username": "tolstoyenthusiast", "rate": 4.9, "comment": "A masterpiece of world literature." }
+    ],
+    "slug": "war-and-peace"
+  },
+  {
+    "name": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "isbn": "9780143035008",
+    "genre": ["Realistic Fiction", "Romance"],
+    "publisher": "Penguin Classics",
+    "publicationDate": "1877-01-01",
+    "language": "English",
+    "description": "A novel that follows the tragic love affair between the married aristocrat Anna Karenina and the affluent Count Vronsky, set against the backdrop of Russian society.",
+    "price": 9.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 864,
+    "dimension": { "height": 20, "width": 14, "length": 3 },
+    "weight": 1,
+    "cover": "Soft",
+    "rating": [
+      { "username": "realisticfictionlover", "rate": 4.7, "comment": "A poignant portrayal of love and society." },
+      { "username": "tolstoyfan", "rate": 4.8, "comment": "Masterful storytelling." }
+    ],
+    "slug": "anna-karenina"
+  },
+  {
+    "name": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "isbn": "9780316769488",
+    "genre": ["Coming-of-Age Fiction", "Realistic Fiction"],
+    "publisher": "Little, Brown and Company",
+    "publicationDate": "1951-07-16",
+    "language": "English",
+    "description": "A novel that follows the experiences of Holden Caulfield, a disillusioned teenager who navigates the challenges of adolescence and adulthood in New York City.",
+    "price": 7.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 224,
+    "dimension": { "height": 19, "width": 13, "length": 2 },
+    "weight": 0.6,
+    "cover": "Soft",
+    "rating": [
+      { "username": "comingofagefictionlover", "rate": 4.8, "comment": "A timeless coming-of-age story." },
+      { "username": "jdsalingerfan", "rate": 4.9, "comment": "Captures the angst of youth." }
+    ],
+    "slug": "the-catcher-in-the-rye"
+  },
+  {
+    "name": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "isbn": "9780141439513",
+    "genre": ["Romance", "Satire", "Social Commentary"],
+    "publisher": "Penguin Classics",
+    "publicationDate": "1813-01-28",
+    "language": "English",
+    "description": "A novel that follows the romantic pursuits of the Bennet sisters, particularly Elizabeth Bennet and Mr. Darcy, amidst the societal norms of early 19th-century England.",
+    "price": 8.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 368,
+    "dimension": { "height": 20, "width": 13, "length": 2 },
+    "weight": 0.5,
+    "cover": "Soft",
+    "rating": [
+      { "username": "romancelover", "rate": 4.8, "comment": "A classic romance." },
+      { "username": "janeaustenfan", "rate": 4.9, "comment": "Delightfully witty." }
+    ],
+    "slug": "pride-and-prejudice"
+  },
+  {
+    "name": "1984",
+    "author": "George Orwell",
+    "isbn": "9780451524935",
+    "genre": ["Dystopian Fiction", "Political Fiction"],
+    "publisher": "Signet Classic",
+    "publicationDate": "1949-06-08",
+    "language": "English",
+    "description": "A novel that depicts a totalitarian regime led by the Party and its leader Big Brother, exploring themes of surveillance, propaganda, and the erosion of truth.",
+    "price": 9.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 328,
+    "dimension": { "height": 18, "width": 11, "length": 2 },
+    "weight": 0.4,
+    "cover": "Soft",
+    "rating": [
+      { "username": "dystopianfictionfan", "rate": 4.8, "comment": "A chilling portrayal of a dystopian society." },
+      { "username": "georgeorwellfan", "rate": 4.9, "comment": "Prophetic and thought-provoking." }
+    ],
+    "slug": "1984"
+  },
+  {
+    "name": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "isbn": "9780544003415",
+    "genre": ["High Fantasy", "Adventure"],
+    "publisher": "Mariner Books",
+    "publicationDate": "1954-07-29",
+    "language": "English",
+    "description": "A fantasy epic that follows the quest to destroy the One Ring and defeat the Dark Lord Sauron, set in the fictional world of Middle-earth.",
+    "price": 25.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 1178,
+    "dimension": { "height": 22, "width": 15, "length": 5 },
+    "weight": 1.6,
+    "cover": "Soft",
+    "rating": [
+      { "username": "highfantasylover", "rate": 4.9, "comment": "A masterpiece of fantasy literature." },
+      { "username": "jrrtolkienfan", "rate": 4.9, "comment": "Legendary world-building." }
+    ],
+    "slug": "the-lord-of-the-rings"
+  },
+  {
+    "name": "Frankenstein",
+    "author": "Mary Shelley",
+    "isbn": "9780141439476",
+    "genre": ["Gothic", "Science Fiction", "Horror"],
+    "publisher": "Penguin Classics",
+    "publicationDate": "1818-01-01",
+    "language": "English",
+    "description": "A novel that tells the story of Victor Frankenstein, a young scientist who creates a sentient creature in an unorthodox scientific experiment, leading to tragic consequences.",
+    "price": 7.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 352,
+    "dimension": { "height": 19, "width": 13, "length": 2 },
+    "weight": 0.6,
+    "cover": "Soft",
+    "rating": [
+      { "username": "gothicfictionfan", "rate": 4.8, "comment": "A classic of Gothic literature." },
+      { "username": "maryshelleyfan", "rate": 4.9, "comment": "Groundbreaking and haunting." }
+    ],
+    "slug": "frankenstein"
+  },
+  {
+    "name": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "isbn": "9780345339683",
+    "genre": ["Fantasy", "Adventure"],
+    "publisher": "Del Rey Books",
+    "publicationDate": "1937-09-21",
+    "language": "English",
+    "description": "A fantasy adventure novel that follows the journey of Bilbo Baggins, a hobbit who joins a group of dwarves on a quest to reclaim their homeland from the dragon Smaug.",
+    "price": 9.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 310,
+    "dimension": { "height": 18, "width": 12, "length": 2 },
+    "weight": 0.5,
+    "cover": "Soft",
+    "rating": [
+      { "username": "fantasylover", "rate": 4.8, "comment": "A charming tale of adventure." },
+      { "username": "jrrtolkienfan", "rate": 4.9, "comment": "A timeless classic." }
+    ],
+    "slug": "the-hobbit"
+  },
+  {
+    "name": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "isbn": "9780142437209",
+    "genre": ["Gothic", "Romance"],
+    "publisher": "Penguin Classics",
+    "publicationDate": "1847-10-16",
+    "language": "English",
+    "description": "A novel that follows the life of the orphaned governess Jane Eyre as she faces challenges, discovers her independence, and falls in love with the brooding Mr. Rochester.",
+    "price": 8.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 624,
+    "dimension": { "height": 20, "width": 13, "length": 2 },
+    "weight": 0.7,
+    "cover": "Soft",
+    "rating": [
+      { "username": "gothicfictionlover", "rate": 4.8, "comment": "A captivating Gothic romance." },
+      { "username": "charlottebrontefan", "rate": 4.9, "comment": "A timeless classic." }
+    ],
+    "slug": "jane-eyre"
+  },
+  {
+    "name": "The Odyssey",
+    "author": "Homer",
+    "isbn": "9780143039952",
+    "genre": ["Epic Poetry", "Adventure"],
+    "publisher": "Penguin Classics",
+    "publicationDate": "8th Century BCE",
+    "language": "English",
+    "description": "An epic poem that follows the Greek hero Odysseus as he attempts to return home to Ithaca after the Trojan War, encountering mythical creatures and facing numerous challenges along the way.",
+    "price": 7.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 560,
+    "dimension": { "height": 19, "width": 13, "length": 2 },
+    "weight": 0.6,
+    "cover": "Soft",
+    "rating": [
+      { "username": "epicpoetrylover", "rate": 4.8, "comment": "An enduring classic." },
+      { "username": "homerfan", "rate": 4.9, "comment": "A foundational work of Western literature." }
+    ],
+    "slug": "the-odyssey"
+  },
+  {
+    "name": "The Iliad",
+    "author": "Homer",
+    "isbn": "9780140275360",
+    "genre": ["Epic Poetry", "War Story"],
+    "publisher": "Penguin Classics",
+    "publicationDate": "8th Century BCE",
+    "language": "English",
+    "description": "An epic poem that recounts the events of the Trojan War, focusing on the wrath of Achilles and its consequences for both the Greek and Trojan forces.",
+    "price": 7.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 704,
+    "dimension": { "height": 19, "width": 13, "length": 2 },
+    "weight": 0.7,
+    "cover": "Soft",
+    "rating": [
+      { "username": "epicpoetrylover", "rate": 4.8, "comment": "A timeless epic." },
+      { "username": "homerfan", "rate": 4.9, "comment": "Legendary storytelling." }
+    ],
+    "slug": "the-iliad"
+  },
+  {
+    "name": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "isbn": "9780141439551",
+    "genre": ["Gothic", "Romance"],
+    "publisher": "Penguin Classics",
+    "publicationDate": "1847-12-29",
+    "language": "English",
+    "description": "A novel that follows the passionate and destructive love between Catherine Earnshaw and Heathcliff, set against the backdrop of the Yorkshire moors.",
+    "price": 8.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 416,
+    "dimension": { "height": 19, "width": 13, "length": 2 },
+    "weight": 0.6,
+    "cover": "Soft",
+    "rating": [
+      { "username": "gothicfictionlover", "rate": 4.8, "comment": "A haunting Gothic romance." },
+      { "username": "emilybrontefan", "rate": 4.9, "comment": "A timeless classic." }
+    ],
+    "slug": "wuthering-heights"
+  },
+  {
+    "name": "The Stranger",
+    "author": "Albert Camus",
+    "isbn": "9780679720201",
+    "genre": ["Philosophical Fiction", "Existentialism"],
+    "publisher": "Vintage International",
+    "publicationDate": "1942-01-01",
+    "language": "English",
+    "description": "A novel that follows the detached and indifferent Meursault as he navigates life's absurdities, culminating in a senseless act of violence.",
+    "price": 10.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 123,
+    "dimension": { "height": 20, "width": 13, "length": 2 },
+    "weight": 0.4,
+    "cover": "Soft",
+    "rating": [
+      { "username": "philosophicalfictionlover", "rate": 4.8, "comment": "A thought-provoking exploration of existentialism." },
+      { "username": "albertcamusfan", "rate": 4.9, "comment": "An existential masterpiece." }
+    ],
+    "slug": "the-stranger"
   },
   {
     "name": "The Grapes of Wrath",
     "author": "John Steinbeck",
     "isbn": "9780143039433",
-    "genre": ["Social Realism", "Historical Fiction"],
+    "genre": ["Realistic Fiction", "Social Commentary"],
     "publisher": "Penguin Classics",
     "publicationDate": "1939-04-14",
     "language": "English",
-    "description": "A novel that follows the Joad family as they flee the Dust Bowl of Oklahoma during the Great Depression, seeking a better life in California.",
-    "price": 12.50,
+    "description": "A novel that follows the Joad family as they migrate from the Dust Bowl to California during the Great Depression, facing poverty, prejudice, and exploitation along the way.",
+    "price": 11.99,
     "availability": "In Stock",
     "format": ["Hardcover", "Paperback", "E-book"],
     "page": 464,
-    "dimension": { "height": 19, "width": 13, "length": 2 },
+    "dimension": { "height": 20, "width": 13, "length": 3 },
+    "weight": 0.8,
+    "cover": "Soft",
+    "rating": [
+      { "username": "realisticfictionlover", "rate": 4.8, "comment": "A powerful depiction of social injustice." },
+      { "username": "johnsteinbeckfan", "rate": 4.9, "comment": "Timeless social commentary." }
+    ],
+    "slug": "the-grapes-of-wrath"
+  },
+  {
+    "name": "Les Misérables",
+    "author": "Victor Hugo",
+    "isbn": "9780140444308",
+    "genre": ["Historical Fiction", "Social Commentary"],
+    "publisher": "Penguin Classics",
+    "publicationDate": "1862-01-01",
+    "language": "English",
+    "description": "A novel that follows the lives of several characters, including the ex-convict Jean Valjean and the relentless inspector Javert, amidst the backdrop of post-revolutionary France.",
+    "price": 13.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 1232,
+    "dimension": { "height": 21, "width": 15, "length": 5 },
+    "weight": 1.5,
+    "cover": "Soft",
+    "rating": [
+      { "username": "historicalfictionlover", "rate": 4.8, "comment": "An epic tale of redemption and revolution." },
+      { "username": "victorhugofan", "rate": 4.9, "comment": "A literary masterpiece." }
+    ],
+    "slug": "les-miserables"
+  },
+  {
+    "name": "Dracula",
+    "author": "Bram Stoker",
+    "isbn": "9780141439841",
+    "genre": ["Gothic", "Horror"],
+    "publisher": "Penguin Classics",
+    "publicationDate": "1897-05-26",
+    "language": "English",
+    "description": "A novel that tells the story of Count Dracula's attempt to move from Transylvania to England so he may find new blood and spread the undead curse, and the battle between Dracula and a small group of people led by Professor Abraham Van Helsing.",
+    "price": 8.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 528,
+    "dimension": { "height": 19, "width": 13, "length": 3 },
     "weight": 0.7,
     "cover": "Soft",
     "rating": [
-      { "username": "socialrealismlover", "rate": 4.8, "comment": "A powerful depiction of human struggle." },
-      { "username": "steinbeckfan", "rate": 4.9, "comment": "Social commentary at its finest." }
-    ]
+      { "username": "gothicfictionlover", "rate": 4.8, "comment": "A classic of Gothic horror." },
+      { "username": "bramstokerfan", "rate": 4.9, "comment": "The quintessential vampire novel." }
+    ],
+    "slug": "dracula"
+  },
+  {
+    "name": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "isbn": "9780140449266",
+    "genre": ["Adventure", "Revenge", "Historical Fiction"],
+    "publisher": "Penguin Classics",
+    "publicationDate": "1844-01-28",
+    "language": "English",
+    "description": "A novel that follows the young sailor Edmond Dantès as he is falsely accused of treason, imprisoned, and later escapes to seek revenge on those who wronged him.",
+    "price": 10.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 1276,
+    "dimension": { "height": 20, "width": 14, "length": 4 },
+    "weight": 1.2,
+    "cover": "Soft",
+    "rating": [
+      { "username": "adventurelover", "rate": 4.8, "comment": "An epic tale of revenge and redemption." },
+      { "username": "alexandredumasfan", "rate": 4.9, "comment": "A thrilling adventure." }
+    ],
+    "slug": "the-count-of-monte-cristo"
+  },
+  {
+    "name": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "isbn": "9780141439766",
+    "genre": ["Fantasy", "Children's Literature"],
+    "publisher": "Penguin Classics",
+    "publicationDate": "1865-11-26",
+    "language": "English",
+    "description": "A novel that follows the adventures of a young girl named Alice after she falls down a rabbit hole into a fantasy world populated by peculiar creatures.",
+    "price": 6.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 192,
+    "dimension": { "height": 18, "width": 12, "length": 2 },
+    "weight": 0.4,
+    "cover": "Soft",
+    "rating": [
+      { "username": "fantasylover", "rate": 4.8, "comment": "A whimsical journey into imagination." },
+      { "username": "lewiscarrollfan", "rate": 4.9, "comment": "Timeless children's literature." }
+    ],
+    "slug": "alices-adventures-in-wonderland"
   },
   {
     "name": "The Picture of Dorian Gray",
@@ -635,40 +599,64 @@
     "isbn": "9780141439575",
     "genre": ["Gothic", "Philosophical Fiction"],
     "publisher": "Penguin Classics",
-    "publicationDate": "1890-07-20",
+    "publicationDate": "1890-07-01",
     "language": "English",
-    "description": "A novel that tells the story of a young man named Dorian Gray who makes a Faustian bargain to retain his youth and beauty while his portrait ages and reflects his sins.",
-    "price": 9.99,
+    "description": "A novel that tells the story of a young man named Dorian Gray who becomes enthralled by his own portrait and makes a Faustian bargain to retain his youth and beauty while his portrait ages.",
+    "price": 7.99,
     "availability": "In Stock",
     "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 304,
-    "dimension": { "height": 19, "width": 13, "length": 2 },
-    "weight": 0.6,
+    "page": 272,
+    "dimension": { "height": 18, "width": 12, "length": 2 },
+    "weight": 0.5,
     "cover": "Soft",
     "rating": [
-      { "username": "gothicfictionlover", "rate": 4.8, "comment": "A haunting tale." },
-      { "username": "wildean", "rate": 4.9, "comment": "Wilde's masterpiece." }
-    ]
+      { "username": "gothicfictionlover", "rate": 4.8, "comment": "A haunting exploration of vanity and morality." },
+      { "username": "oscarwilde", "rate": 4.9, "comment": "Wilde's masterpiece." }
+    ],
+    "slug": "the-picture-of-dorian-gray"
+  },
+  {
+    "name": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "isbn": "9780141441677",
+    "genre": ["Adventure", "Psychological Fiction"],
+    "publisher": "Penguin Classics",
+    "publicationDate": "1899-02-03",
+    "language": "English",
+    "description": "A novella that follows the journey of Charles Marlow into the Congo Free State, where he encounters the enigmatic ivory trader Kurtz and confronts the darkness within humanity.",
+    "price": 8.99,
+    "availability": "In Stock",
+    "format": ["Hardcover", "Paperback", "E-book"],
+    "page": 96,
+    "dimension": { "height": 18, "width": 12, "length": 1 },
+    "weight": 0.3,
+    "cover": "Soft",
+    "rating": [
+      { "username": "adventurelover", "rate": 4.7, "comment": "A journey into the heart of darkness." },
+      { "username": "josephconradfan", "rate": 4.8, "comment": "A profound exploration of human nature." }
+    ],
+    "slug": "heart-of-darkness"
   },
   {
     "name": "The Brothers Karamazov",
     "author": "Fyodor Dostoevsky",
-    "isbn": "9780140449249",
-    "genre": ["Philosophical Fiction", "Psychological Fiction"],
-    "publisher": "Penguin Classics",
-    "publicationDate": "1880-11-26",
+    "isbn": "9780374528379",
+    "genre": ["Philosophical Fiction", "Family Drama"],
+    "publisher": "Farrar, Straus and Giroux",
+    "publicationDate": "1880-11-01",
     "language": "English",
-    "description": "A novel that explores the moral and philosophical dilemmas of the Karamazov brothers—Dmitri, Ivan, and Alyosha—as they grapple with faith, reason, and the existence of God.",
-    "price": 13.99,
+    "description": "A novel that explores complex philosophical and ethical questions through the turbulent relationships of the Karamazov family, culminating in a gripping courtroom drama.",
+    "price": 12.99,
     "availability": "In Stock",
     "format": ["Hardcover", "Paperback", "E-book"],
-    "page": 928,
-    "dimension": { "height": 20, "width": 14, "length": 3 },
-    "weight": 1.0,
+    "page": 824,
+    "dimension": { "height": 20, "width": 13, "length": 3 },
+    "weight": 0.9,
     "cover": "Soft",
     "rating": [
-      { "username": "philosophicalfictionlover", "rate": 4.9, "comment": "Profound and thought-provoking." },
-      { "username": "dostoevskyfan", "rate": 4.8, "comment": "Masterpiece of existential literature." }
-    ]
+      { "username": "philosophicalfictionlover", "rate": 4.8, "comment": "A profound exploration of morality and faith." },
+      { "username": "dostoevskyenthusiast", "rate": 4.9, "comment": "Dostoevsky's masterpiece." }
+    ],
+    "slug": "the-brothers-karamazov"
   }
 ]
