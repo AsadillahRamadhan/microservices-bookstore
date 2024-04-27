@@ -30,15 +30,19 @@ message Book {
     string publicationDate = 8;
     string language = 9;
     string description = 10;
-    string price = 11;
-    string availability = 12;
-    repeated string format = 13;
-    string page = 14;
-    BookDimension dimension = 15;
-    double weight = 16;
-    string cover = 17;
-    repeated BookRating rating = 18;
-    
+    repeated Format format = 11;
+    string page = 12;
+    BookDimension dimension = 13;
+    double weight = 14;
+    string cover = 15;
+    repeated BookRating rating = 16;
+}
+
+message Format {
+    string format = 1;
+    int32 price = 2;
+    int64 stock = 3;
+    string availability = 4;
 }
 
 message BookRating {

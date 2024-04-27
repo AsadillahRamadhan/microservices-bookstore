@@ -31,12 +31,6 @@ const Book = mongoose.model('Book', {
     description: {
         type: String
     },
-    price: {
-        type: Number
-    },
-    availability: {
-        type: String
-    },
     format: {
         type: Array // data ini berisikan array untuk format, misal soft-copy, hard-copy dll
     },
