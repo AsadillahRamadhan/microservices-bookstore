@@ -17,7 +17,7 @@ const Book = mongoose.model('Book', {
         type: String
     },
     genre: {
-        type: Object // data ini berisikan object untuk genre
+        type: Object
     },
     publisher: {
         type: String
@@ -32,13 +32,13 @@ const Book = mongoose.model('Book', {
         type: String
     },
     format: {
-        type: Array // data ini berisikan array untuk format, misal soft-copy, hard-copy dll
+        type: Array
     },
     page: {
         type: Number
     },
     dimension: {
-        type: Object // data ini berisikan object dengan atribut height, width, dan length
+        type: Object
     },
     weight: {
         type: mongoose.Decimal128
@@ -47,7 +47,7 @@ const Book = mongoose.model('Book', {
         type: String
     },
     rating: {
-        type: Object // data ini berisikan object dengan atribut username, rate, dan comment
+        type: Object 
     }
 });
 

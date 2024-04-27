@@ -10,6 +10,8 @@
     "start-auth-service-server": "nodemon auth_service/server/index",
     "start-book-service-client": "nodemon book_service/client/index",
     "start-book-service-server": "nodemon book_service/server/index",
+    "start-cart-service-client": "nodemon cart_service/client/index",
+    "start-cart-service-server": "nodemon cart_service/server/index",
     "seed": "node seeders/index"
   },
   "author": "",
@@ -20,6 +22,7 @@
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
     "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "express-validator": "^7.0.1",
     "jsonwebtoken": "^9.0.2",
