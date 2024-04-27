@@ -10,22 +10,25 @@ message GetAllBookResponse {
 }
 
 message Book {
-    string name = 1;
-    string author = 2;
-    string isbn = 3;
-    repeated string genre = 4;
-    string publisher = 5;
-    string publicationDate = 6;
-    string language = 7;
-    string description = 8;
-    string price = 9;
-    string availability = 10;
-    repeated string format = 11;
-    string page = 12;
-    BookDimension dimension = 13;
-    double weight = 14;
-    string cover = 15;
-    repeated BookRating rating = 16;
+    string id = 1;
+    string name = 2;
+    string author = 3;
+    string isbn = 4;
+    string slug = 5;
+    repeated string genre = 6;
+    string publisher = 7;
+    string publicationDate = 8;
+    string language = 9;
+    string description = 10;
+    string price = 11;
+    string availability = 12;
+    repeated string format = 13;
+    string page = 14;
+    BookDimension dimension = 15;
+    double weight = 16;
+    string cover = 17;
+    repeated BookRating rating = 18;
+    
 }
 
 message BookRating {
