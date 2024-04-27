@@ -9,18 +9,29 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/api/get-all-book', (req, res) => {
-    const token = `123`;
     const request = {
-        token: token,
+        token: '',
         query: req.query.query
     }
     proto.Client.GetAllBook(request, (error, response) => {
     if(error){
-        res.status(500).json({"error": error});
-    } else {
-        res.status(201).json(response);
+        return res.status(500).json({"error": error});
     }
+    return res.status(201).json(response);
+    });
 });
+
+app.get('/api/book/:slug', (req, res) => {
+    const request = {
+        token: '',
+        slug: req.params.slug
+    }
+    proto.Client.GetBook(request, (error, response) => {
+        if(error){
+            return res.status(500).json({"error": error});
+        }
+        return res.status(201).json(response);
+    })
 });
 
 app.listen(PORT, () => {
