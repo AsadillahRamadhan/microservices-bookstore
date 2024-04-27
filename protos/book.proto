@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+message GetAllBookRequest {
+    string token = 1;
+    string query = 2;
+}
+
+message GetAllBookResponse {
+    repeated Book book = 1;
+}
+
+message Book {
+    string name = 1;
+    string author = 2;
+    string isbn = 3;
+    repeated string genre = 4;
+    string publisher = 5;
+    string publicationDate = 6;
+    string language = 7;
+    string description = 8;
+    string price = 9;
+    string availability = 10;
+    repeated string format = 11;
+    string page = 12;
+    BookDimension dimension = 13;
+    double weight = 14;
+    string cover = 15;
+    repeated BookRating rating = 16;
+}
+
+message BookRating {
+    string user = 1;
+    int32 rate = 2;
+    string comment = 3;
+}
+
+message BookDimension {
+    double height = 1;
+    double width = 2;
+    double length = 3;
+}
+
+service BookService {
+    rpc GetAllBook(GetAllBookRequest) returns (GetAllBookResponse);
+}

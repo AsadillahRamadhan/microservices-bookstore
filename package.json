@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-auth-service-client": "nodemon auth_service/client/index",
-    "start-auth-service-server": "nodemon auth_service/server/index"
+    "start-auth-service-server": "nodemon auth_service/server/index",
+    "start-book-service-client": "nodemon book_service/client/index",
+    "start-book-service-server": "nodemon book_service/server/index"
   },
   "author": "",
   "license": "ISC",
