@@ -1,10 +1,15 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import proto from '../../protoloaders/auth_service.js';
+import cors from 'cors';
 
 const app = express();
 const PORT = 3000;
 
+app.use(cors({
+    credentials: true,
+    origin: 'http://127.0.0.1:8080'
+}));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
