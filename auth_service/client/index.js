@@ -28,7 +28,7 @@ app.post('/api/login',(req, res) => {
     if(error){
         res.status(500).json({"errors": error});
     } else {
-        res.status(201).json(response);
+        res.status(200).json(response);
     }
 });
 });
